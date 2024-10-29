@@ -2,7 +2,7 @@ name: Update TamilMV Feed
 
 on:
   schedule:
-    - cron: '0 */5 * * *' # Runs every 5 hours
+    - cron: '0 */1 * * *' # Runs every 5 hours
   workflow_dispatch: # Allows manual triggering of the workflow
 
 jobs:
@@ -17,7 +17,7 @@ jobs:
         run: sudo apt-get install -y curl
         
       - name: Fetch content
-        run: curl -o tamilmv_feed.html https://test1.proxyboy.site/
+        run: curl -o _includes/tamilmv_feed.html https://test1.proxyboy.site/
         
       - name: Commit changes
         run: |
