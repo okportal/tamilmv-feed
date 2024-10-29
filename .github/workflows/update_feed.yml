@@ -17,13 +17,13 @@ jobs:
         run: sudo apt-get install -y curl
         
       - name: Fetch content
-        run: curl -o _includes/tamilmv_feed.html https://test1.proxyboy.site/
+        run: curl -o tamilmv_feed.html https://test1.proxyboy.site/
         
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add tamilmv_feed.html
+          git add _includes/tamilmv_feed.html
           git commit -m "Update tamilmv_feed.html" || echo "No changes to commit"
         
       - name: Push changes
