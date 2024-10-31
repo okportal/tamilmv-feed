@@ -5,7 +5,7 @@ require 'vendor/autoload.php';
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
-$fetchUrl = "https://www.1tamilmv.wf";
+$fetchUrl = "https://tamilmv.proxyboy.workers.dev";
 $selector = "#ipsLayout_mainArea > div.cWidgetContainer > ul > li > div > p:nth-child(3)";
 
 try {
