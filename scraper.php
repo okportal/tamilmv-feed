@@ -5,8 +5,9 @@ require 'vendor/autoload.php';
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
-$fetchUrl = "https://tamilmv.proxyboy.workers.dev";
-$selector = "#ipsLayout_mainArea > div.cWidgetContainer > ul > li > div > p:nth-child(3)";
+
+$fetchUrl = "https://tamilblasters.proxyboy.site/";
+$selector = "#ipsLayout_mainArea > div.cWidgetContainer > ul > li:nth-child(3) > div";
 
 try {
     $client = new Client();
