@@ -17,7 +17,7 @@ jobs:
         run: sudo apt-get install -y curl
         
       - name: Fetch content
-        run: curl -o _includes/tamilmv_feed.html https://test1.proxyboy.site/app.php
+        run: curl -o _includes/tamilmv_feed.html https://test.proxyboy.site/tamilblasters.php
         
       - name: Commit changes
         run: |
