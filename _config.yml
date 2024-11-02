@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Download Latest Tamil Telugu Hindi Malayalam Movies
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tamilyogii.website" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tamilyogii.website" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
