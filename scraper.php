@@ -7,7 +7,7 @@ use Symfony\Component\DomCrawler\Crawler;
 
 
 $fetchUrl = "https://freeproxy.io/o.php?u=https://www.1tamilmv.wf";
-$selector = "#ipsLayout_mainArea > div.cWidgetContainer > ul > li:nth-child(3) > div";
+$selector = "#ipsLayout_mainArea > div.cWidgetContainer > ul > li > div > p:nth-child(3)";
 
 try {
     $client = new Client();
