@@ -6,8 +6,8 @@ use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
 
-$fetchUrl = "https://freeproxy.io/o.php?u=https://www.1tamilmv.wf";
-$selector = "#ipsLayout_mainArea > div.cWidgetContainer > ul > li > div > p:nth-child(3)";
+$fetchUrl = "https://3moviesda.com";
+$selector = "body > main > div:nth-child(2)";
 
 try {
     $client = new Client();
